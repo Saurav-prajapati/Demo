@@ -1,0 +1,696 @@
+// login page css 
+.login {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px 0 #000000b3;
+    border-radius: 6px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+    padding: 1% 1%;
+    background: #cfcfcf;
+}
+
+.login .head {
+    font-size: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3% 0;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    text-align: center;
+}
+.login form .point {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1% 0;
+}
+.login form .point label {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4b4bbb;
+    margin-bottom: 1%;
+}
+
+.login form .point input {
+    font-size: 1rem;
+    color: black;
+    padding: 2% 2%;
+    margin: 2% 0;
+    border: none;
+    box-shadow: 0 0 4px 0 #00000054;
+    border-radius: 4px;
+    outline: none;
+    letter-spacing: 0.1vw;
+}
+.login form .point .hide {
+    position: absolute;
+    right: 5%;
+    bottom: 17%;
+}
+.login form .point .hide svg {
+    font-size: 1.5rem;
+    color: #3c3c9e;
+}
+.login form .forgotton {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    letter-spacing: 0.05vw;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.login form .button {
+    font-size: 1.1rem;
+    color: black;
+    padding: 2% 10%;
+    margin: 3% 0;
+    text-transform: uppercase;
+    border: none;
+    background: #4b4bbb;
+    color: white;
+    font-weight: obld;
+    cursor: pointer;
+    font-weight: bold;
+}
+.login form .buttons {
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    padding: 2% 10%;
+    margin: 3% 0;
+    text-transform: capitalize;
+    border: none;
+    color: #000000c4;
+    font-weight: obld;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+.login form .buttons span{
+    font-size: 1.4vw;
+    color: #4b4bbb;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+
+// Signup Page css start 
+.signup {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 7px 0 #000000b3;
+    border-radius: 6px;
+    // height: 50vh;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+    padding: 1% 1%;
+    background: #b2afaf;
+}
+
+.signup .head {
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3% 0;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    text-align: center;
+}
+.signup form .point {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1% 0;
+}
+
+.signup form .point label {
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #4b4bbb;
+    font-family: monospace;
+}
+
+.signup form .point input {
+    font-size: 1rem;
+    color: black;
+    padding: 1.5% 2%;
+    margin: 1.5% 0;
+    border: none;
+    box-shadow: 0 0 4px 0 #00000054;
+    border-radius: 4px;
+    outline: none;
+    letter-spacing: 0.1vw;
+}
+.signup form .point .hide {
+    position: absolute;
+    right: 5%;
+    bottom: 17%;
+}
+.signup form .point .hide svg {
+    font-size: 1.4rem;
+    color: #3c3c9e;
+}
+.signup form .button {
+    font-size: 1rem;
+    color: black;
+    padding: 2% 10%;
+    margin: 2% 0;
+    text-transform: uppercase;
+    border: none;
+    background: #4b4bbb;
+    color: white;
+    font-weight: obld;
+    cursor: pointer;
+    font-weight: bold;
+}
+.signup form .buttons {
+    font-size: 0.9rem;
+    word-spacing: 3px;
+    padding: 2% 10%;
+    margin: 3% 0;
+    text-transform: capitalize;
+    border: none;
+    color: #000000c4;
+    font-weight: obld;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.signup form .buttons span {
+    font-size: 1.1rem;
+    color: #4b4bbb;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+// forget password 
+.forget {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px 0 #000000b3;
+    border-radius: 6px;
+    // height: 50vh;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+    padding: 1% 1%;
+    background: #b2afaf;
+}
+
+.forget .head {
+    font-size: 1.2rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3% 0;
+}
+
+.forget form {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    text-align: center;
+}
+.forget form .point {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1% 0;
+}
+.forget form .point label {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4b4bbb;
+    margin-bottom: 1%;
+}
+
+.forget form .point input {
+    font-size: 1.05rem;
+    color: black;
+    padding: 2% 2%;
+    margin: 2% 0;
+    border: none;
+    box-shadow: 0 0 4px 0 #00000054;
+    border-radius: 4px;
+    outline: none;
+    letter-spacing: 0.1vw;
+}
+.forget form .point .hide {
+    position: absolute;
+    right: 5%;
+    bottom: 17%;
+}
+.forget form .point .hide svg {
+    font-size: 2vw;
+    color: #3c3c9e;
+}
+// .forget form .forget {
+//     display: flex;
+//     justify-content: flex-end;
+//     font-size: 1.05vw;
+//     text-transform: capitalize;
+//     letter-spacing: 0.05vw;
+//     line-height: 1.5;
+//     cursor: pointer;
+// }
+.forget form .button {
+    font-size: 1.1rem;
+    color: black;
+    padding: 2% 10%;
+    margin: 3% 0;
+    text-transform: uppercase;
+    border: none;
+    background: #4b4bbb;
+    color: white;
+    font-weight: obld;
+    cursor: pointer;
+    font-weight: bold;
+}
+.forget form .buttons {
+    font-size: 1rem;
+    word-spacing: 3px;
+    padding: 2% 10%;
+    margin: 3% 0;
+    text-transform: capitalize;
+    border: none;
+    color: #000000c4;
+    font-weight: obld;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+.forget form .buttons span{
+    font-size: 1.1rem;
+    color: #4b4bbb;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+// forgetnewpassword 
+.Forget {
+    width: 100%;
+  }
+  .Forget .container {
+    width: 100%;
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .Forget .container img {
+    z-index: 0.1;
+    filter: brightness(0.7);
+    height: 100vh;
+  }
+  .Forget .container .box {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    align-items: center;
+    justify-content: center;
+    background: #000000bf;
+    border: 0.5vw solid #c99200;
+    border-radius: 5px;
+    // height: 25vh;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: absolute;
+  }
+  .Forget .container .box .head {
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quantico";
+    margin: 0;
+    padding: 5% 0;
+    padding-bottom: 1%;
+  }
+  .Forget .container .box .message {
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    color: #5bd40a;
+    font-weight: 400;
+    font-family: "Quantico";
+    margin: 0;
+    // transition: 250ms ease-in-out;
+  }
+  .Forget .container .box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4% 0;
+    width: 75%;
+  }
+  .Forget .container .box form .point {
+    display: flex;
+    flex-direction: column;
+    padding: 6% 0;
+    padding-top: 0;
+    position: relative;
+  }
+  .Forget .container .box form .point label {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Quantico";
+    padding: 1% 0;
+  }
+  .Forget .container .box form .point input {
+    font-size: 1.15rem;
+    font-family: "Quantico";
+    color: #8e6700;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 1% 2%;
+    outline: none;
+  }
+  .Forget .container .box form .point .eye {
+    position: absolute;
+    right: 2%;
+    bottom: 21%;
+    color: black;
+  }
+  .Forget .container .box form .point .eye svg {
+    font-size: 1.5rem;
+  }
+  
+  .Forget .container .box form button {
+    font-size: 1.2rem;
+    font-family: "Quantico";
+    color: #fe0000;
+    margin: 6% 0;
+    cursor: pointer;
+    outline: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 1% 0;
+    margin-top: 1rem;
+    background: #01ffff;
+  }
+  
+
+
+
+
+
+
+
+@media(max-width:1199px){
+    
+}
+@media(max-width:991px){
+
+}
+@media(max-width:768px){
+    .login {
+        width: 65%;
+    }
+    .login .head {
+        font-size: 3vw;
+    }
+    .login form .point label {
+        font-size: 2.3vw;
+    }
+    .login form .point input {
+        font-size: 2.3vw;
+    }
+    .login form .point .hide svg {
+        font-size: 3.5vw;
+    }
+    .login form .button {
+        font-size: 2.5vw;
+    }
+    .login form .forgotton {
+        font-size: 1.8vw;
+    }
+    .login form .buttons {
+        font-size: 2vw;
+    }
+    .login form .buttons span {
+        font-size: 2.2vw;
+    }
+
+}
+@media(max-width:600px){
+    .login {
+        width: 80%;
+        padding: 3% 1%;
+    }
+    .login .head {
+        font-size: 5vw;
+    }
+    .login form .point label {
+        font-size: 3.5vw;
+    }
+    .login form .point input {
+        font-size: 4vw;
+    }
+    .login form .point {
+        padding: 2% 0;
+    }
+    .login form .point .hide svg {
+        font-size: 5vw;
+    }
+    .login form .forgotton {
+        font-size: 3.2vw;
+        margin: 2% 0;
+    }
+    .login form .button {
+        font-size: 4vw;
+    }
+    .login form .buttons {
+        font-size: 3vw;
+    }
+    .login form .buttons span {
+        font-size: 3.5vw;
+    }
+    
+
+}
+
+@media(max-width:1199px){
+    
+}
+@media(max-width:991px){
+    .signup {
+        width: 25rem;
+    }
+    .signup .head {
+        font-size: 1.2rem;
+    }
+    .signup form .point label {
+        font-size: 0.85rem;
+    }
+    .signup form .point input {
+        font-size: 0.9rem;
+    }
+    .signup form .point .hide {
+        bottom: 14%;
+    }
+    .signup form .point .hide svg {
+        font-size: 1.2rem;
+    }
+    .signup form .button {
+        font-size: 0.9rem;
+        margin-top: 3%;
+    }
+    .signup form .buttons {
+        font-size: 0.8rem;
+        margin-top: 1%;
+        word-spacing: 2px;
+    }
+    .signup form .buttons span {
+        font-size: 1rem;
+    }
+
+}
+@media(max-width:768px){
+    .signup .head {
+        font-size: 3.2vw;
+    }
+    .signup {
+        width: 60%;
+    }
+    .signup form .point label {
+        font-size: 2.1vw;
+    }
+    .signup form .point input {
+        font-size: 2.1vw;
+    }
+    .signup form .point .hide svg {
+        font-size: 2.9vw;
+    }
+    .signup form .button {
+        font-size: 2.1vw;
+        letter-spacing: 1px;
+    }
+    .signup form .buttons {
+        font-size: 1.9vw;
+        margin-top: 1%;
+        word-spacing: 2px;
+    }
+    .signup form .buttons span {
+        font-size: 2.4vw;
+    }
+
+}
+@media(max-width:600px){
+    .signup {
+        width: 80%;
+        padding: 3% 1%;
+    }
+    .signup .head {
+        font-size: 5vw;
+    }
+    .signup form .point label {
+        font-size: 3.5vw;
+    }
+    .signup form .point input {
+        font-size: 4vw;
+    }
+    .signup form .point {
+        padding: 2% 0;
+    }
+    .signup form .point .hide svg {
+        font-size: 5vw;
+    }
+    .signup form .button {
+        font-size: 4vw;
+    }
+    .signup form .buttons {
+        font-size: 3vw;
+    }
+    .signup form .buttons span {
+        font-size: 3.5vw;
+    }
+
+}
+
+@media(max-width:1199px){
+    
+}
+@media(max-width:991px){
+    .forget {
+        width: 25rem;
+    }
+    .forget .head {
+        font-size: 1.2rem;
+    }
+    .forget form .point label {
+        font-size: 0.85rem;
+    }
+    .forget form .point input {
+        font-size: 0.9rem;
+    }
+    .forget form .point .hide {
+        bottom: 14%;
+    }
+    .forget form .point .hide svg {
+        font-size: 1.2rem;
+    }
+    .forget form .button {
+        font-size: 0.9rem;
+        margin-top: 3%;
+    }
+    .forget form .buttons {
+        font-size: 0.8rem;
+        margin-top: 1%;
+        word-spacing: 2px;
+    }
+    .forget form .buttons span {
+        font-size: 1rem;
+    }
+
+}
+@media(max-width:768px){
+    .forget .head {
+        font-size: 3.2vw;
+    }
+    .forget {
+        width: 60%;
+    }
+    .forget form .point label {
+        font-size: 2.1vw;
+    }
+    .forget form .point input {
+        font-size: 2.1vw;
+    }
+    .forget form .point .hide svg {
+        font-size: 2.9vw;
+    }
+    .forget form .button {
+        font-size: 2.1vw;
+        letter-spacing: 1px;
+    }
+    .forget form .buttons {
+        font-size: 1.9vw;
+        margin-top: 1%;
+        word-spacing: 2px;
+    }
+    .forget form .buttons span {
+        font-size: 2.4vw;
+    }
+
+}
+@media(max-width:600px){
+    .forget {
+        width: 80%;
+        padding: 3% 1%;
+    }
+    .forget .head {
+        font-size: 4.5vw;
+    }
+    .forget form .point label {
+        font-size: 3.5vw;
+    }
+    .forget form .point input {
+        font-size: 4vw;
+    }
+    .forget form .point {
+        padding: 3% 0;
+    }
+    .forget form .point .hide svg {
+        font-size: 5vw;
+    }
+    .forget form .button {
+        font-size: 4vw;
+        margin-top: 6%;
+    }
+    .forget form .buttons {
+        font-size: 3.2vw;
+        margin-top: 5%;
+    }
+    .forget form .buttons span {
+        font-size: 3.5vw;
+    }
+
+}

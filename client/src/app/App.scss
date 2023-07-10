@@ -1,0 +1,91 @@
+$font-family: "Poppins";
+$gray-color: #222222;
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    // overflow-y: hidden;
+    overflow-x: hidden;
+    top: 0;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none;
+    position: absolute;
+    top: 4%;
+}
+.goog-te-gadget {
+    font-size: 11px;
+    color: transparent;
+}
+#goog-gt-{
+    display: none !important;
+}
+a.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+    display: none;
+}
+.goog-te-gadget .goog-te-combo {
+    font-size: 1.2rem;
+    -webkit-appearance: none;
+    width: 65%;
+    font-weight: bold;
+    font-family: "Poppins";
+    border: 2px solid grey;
+    text-align: center;
+    padding: 3.3% 3%;
+    margin: 0;
+    outline: none;
+    transition: 400ms ease-in-out;
+    animation: language 250ms inherit;
+    cursor: pointer;
+}
+.goog-te-gadget .goog-te-combo option{
+ font-size: 1rem;
+ width: 2rem;
+ padding: 0;
+ margin: 0;
+ color: gray;
+}
+.goog-te-combo::-moz-focus-inner { /*Remove button padding in FF*/ 
+    border: 0;
+    padding: 0;
+    font-size: 0.3rem;
+}
+
+@keyframes language {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+// scorll bar 
+::-webkit-scrollbar{
+    width: 0.8rem;
+}
+::-webkit-scrollbar-track{
+    background-color:transparent;
+    border: 0.2vw solid gray;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+    color:green color;
+    background-color: green ;
+    border-radius: 15px ;
+    border: 0.1rem solid transparent;
+    background-clip: content-box;
+    height: 1rem;
+    &:hover{
+        color: red;
+    }
+}

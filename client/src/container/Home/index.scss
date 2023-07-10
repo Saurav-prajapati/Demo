@@ -1,0 +1,319 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.upperSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    align-items: center;
+}
+.upperSection .container {
+    width: 15rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-around;
+}
+.upperSection .container .title {
+    font-size: 1.3rem;
+    color: #00001ebd;
+    background: #ffba00;
+    font-weight: 800;
+    font-family: monospace;
+    padding: 1% 6%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.upperSection .container .button {
+    font-size: 1.3rem;
+    color: #00001e;
+    background: #ffba00;
+    font-weight: 800;
+    font-family: monospace;
+    padding: 1% 6%;
+    border: 1px solid black;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    transition: 250ms ease-in-out;
+    cursor: pointer;
+    &:hover{
+        color: yellow;
+        background-color: white;
+        transform: scale(1.02);
+    }
+}
+.bottomSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+    flex-direction: column;
+    align-items: center;
+}
+.bottomSection .containers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+.bottomSection .containers .point {
+    display: flex;
+    flex-direction: row;
+    width: 31rem;
+    margin-left: 9.6%;
+}
+.bottomSection .containers .point .point__title {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0 #000;
+    color: #222;
+    font-family: Roboto;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    outline: none;
+    padding: .5% 2%;
+    width: 10rem;
+}
+.bottomSection .containers .point .point__content {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0 #000;
+    color: #222;
+    font-family: Roboto;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    outline: none;
+    padding: .5% 2%;
+    width: 15rem;
+}
+.bottomSection .containers .point .itemPoint {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    width: 5rem;
+    gap: 1rem;
+}
+.bottomSection .containers .point .itemPoint .update {
+    border: 1.6px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    padding: 0 4%;
+    max-height: 1.5rem;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+    &:hover{
+        color: white;
+        background: #5bb6ff;
+        border: 1.6px solid #5bb6ff;
+    }
+}
+.bottomSection .containers .point .itemPoint .update svg{
+    font-size: 1rem;
+}
+
+.bottomSection .header {
+    width: 25rem;
+    margin: 2% 0;
+}
+.bottomSection .header .point {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 2px 0 black;
+    border-radius: 3px;
+}
+.bottomSection .header .point .point_titles {
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1rem;
+    line-height: 1.6;
+    outline: none;
+    padding: .5% 2%;
+    width: 10rem;
+    text-align: center;
+    background: #5bb6ff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-right: 1px solid black;
+}
+.bottomSection .header .point .point_contents {
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    outline: none;
+    padding: .5% 2%;
+    width: 15rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #5bb6ff;
+    border-left: none;
+}
+
+
+
+
+// Add Todo List css 
+.addTodo {
+    align-items: center;
+    // -webkit-animation: updatediv .4s forwards;
+    // animation: updatediv .4s forwards;
+    background: #ffffff8a;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: ease-in-out;
+    width: 100%;
+}
+
+.addTodo .mainAddTodo{
+    background: #fff;
+    border-radius: 11px;
+    box-shadow: 0 0 6px 0 #000;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2% 3%;
+    width: 30rem;
+    z-index: 11;
+}
+.addTodo .mainAddTodo .cross{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.addTodo .mainAddTodo .head {
+    color: #222;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-weight: 800;
+    text-align: center;
+    margin: 2% 0;
+    margin-top: 0;
+}
+.addTodo .mainAddTodo form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.addTodo .mainAddTodo form .point{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.addTodo .mainAddTodo form .checkox {
+    display: none;
+}
+.addTodo .mainAddTodo form .point label{
+    color: #222;
+    font-family: Poppins;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.addTodo .mainAddTodo form .point input{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0 #000;
+    color: #222;
+    font-family: Roboto;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    outline: none;
+    padding: .5% 2%;
+}
+.addTodo .mainAddTodo form .point textarea{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0 #000;
+    color: #222;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    outline: none;
+    padding: .5% 2%;
+}
+.addTodo .mainAddTodo form button{
+    background-color: #59a248;
+    border: 2px solid #59a248;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 1% 4%;
+    transition: .25s ease-in-out;
+    cursor: pointer;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    &:hover{
+        color: #59a248;
+        background-color: white;
+        border: 2px solid black;
+    }
+}
+
+// pagination part 
+ .paginations {
+    width: 100%;
+}
+.paginations .pagnitaonsss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+ .paginations .pagnitaonsss .page-items .page-link {
+    color: white;
+    text-decoration: none;
+    border: 0.2vw solid #c99200;
+    border-radius: 15px;
+    padding: 3% 28% 9% 28%;
+    font-size: 0.9rem;
+    background: #de483a;
+    font-family: monospace;
+    font-weight: 600;
+    &:hover{
+        color: #c99200;
+        border-color: #fff;
+        transition: 250ms ease-in-out;
+    }
+}
+ .paginations .pagnitaonsss .page-items .page-items {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #de483a;
+}
+
+.paginations .pagnitaonsss .active .page-items {
+    font-size: 1.2rem;
+    color: #de483a;
+    text-decoration: none;
+    transform: scale(1.5);
+    font-weight: bold;
+}
+
+
+
+

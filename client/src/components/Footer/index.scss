@@ -1,0 +1,191 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainFooter {
+    background: #134A84;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3% 4%;
+    opacity: 0.9;
+}
+
+.mainFooter .log {
+    text-align: left;
+}
+
+.mainFooter .socilaMedia {
+    display: flex;
+    flex-direction: column;
+    padding: 0 6%;
+}
+
+.mainFooter .socilaMedia .heading {
+    font-size: 1.4vw;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.mainFooter .socilaMedia .borderline {
+    height: 2px;
+    background: white;
+    width: 90%;
+    position: relative;
+    margin: 3% 0% 3% 6%;
+}
+
+.mainFooter .socilaMedia .borderline .socialMedia {
+    background: #134a84;
+    padding: 1% 2%;
+    position: absolute;
+    left: 36%;
+    bottom: -26px;
+}
+
+.mainFooter .socilaMedia .borderline .socialMedia a {
+    font-size: 2.0vw;
+    margin: 0 10px;
+    color: white;
+}
+
+.mainFooter .RegardingPage {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0;
+    padding: 0 9%;
+}
+
+.mainFooter .RegardingPage .head {
+    font-size: 1.4vw;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 550;
+}
+
+.mainFooter .RegardingPage .PageLink {
+    width: 100%;
+    background: #598EB4;
+    margin: 2% 0;
+    box-shadow: 0 0 2px 0 beige;
+}
+.mainFooter .RegardingPage .PageLink ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainFooter .RegardingPage .PageLink ul li {
+    font-size: 1.17vw;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 550;
+    padding: 0 4%;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.mainFooter .RegardingPage .PageLink ul li:hover {
+    font-size: 1.19vw;
+}
+
+ 
+.mainFooter .Newseltters {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0;
+}
+
+.mainFooter  .Newseltters .heading {
+    font-size: 1.56vw;
+    color: white;
+    font-weight: 550;
+    line-height: 1.8;
+    font-family: 'Roboto';
+}
+.mainFooter .Newseltters form {
+    width: 100%;
+    margin-top: 2%;
+}
+.mainFooter .Newseltters form input {
+    padding: 0.7% 1.5%;
+    outline: none;
+    border: none;
+}
+.mainFooter .Newseltters form button {
+    font-size: 1.17vw;
+    font-family: 'Roboto';
+    font-weight: 550;
+    background: green;
+    padding: 0.6% 3%;
+    outline: none;
+    border: none;
+    color: white;
+    transition: 250ms ease-in;
+}
+
+.copyRight {
+    text-align: center;
+    padding: 0.2% 0;
+}
+.copyRight .heading {
+    font-size: 1.17vw;
+    color: #222222;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.copyRight .heading span {
+    position: relative;
+    top: 2px;
+    left: -3px;
+}
+
+@media(max-width:991px){
+    .mainFooter .socilaMedia .heading {
+        font-size: 2vw;
+        line-height: 1.7;
+    }
+    .mainFooter .socilaMedia .borderline .socialMedia a {
+        font-size: 2.5vw;
+    }
+    .mainFooter .RegardingPage .head {
+        font-size: 1.8vw;
+        margin-top: 2%;
+    }
+    .mainFooter .RegardingPage .PageLink ul li {
+        font-size: 1.8vw;
+        padding: 0 3%;
+    }
+    .mainFooter .RegardingPage {
+        padding: 0 1%;
+    }
+    .mainFooter .Newseltters form input {
+        font-size: 2vw;
+    }
+    .mainFooter .Newseltters form button {
+        font-size: 2vw;
+    }
+    .copyRight .heading {
+        font-size: 1.6vw;
+        padding: 1% 0;
+    }
+}
+
+@media(max-width:768px){
+    .mainFooter .log img {
+        width: 15%;
+    }
+    .mainFooter .socilaMedia .heading {
+        font-size: 2.5vw;
+        line-height: 1.7;
+    }
+    .mainFooter .socilaMedia .borderline .socialMedia {
+        left: 32%;
+        bottom: -17px;
+    }
+
+}
